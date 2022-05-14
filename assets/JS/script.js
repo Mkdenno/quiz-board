@@ -1,4 +1,5 @@
 
+const scoreBoard=document.querySelector(".score_board");
 const answer = ["HTML","ECMAscript", "YES","Cascading style sheet","Css"];
 var userAnswers = [];
 let score=0;
@@ -46,6 +47,8 @@ for(let i = 0; i < question5.length; i++) {
 
    console.table(userAnswers);
    checkAnswers();
+   showPopup();
+
 
 })
 //function to check answers
@@ -62,4 +65,7 @@ function checkAnswers(){
     }
     document.getElementById("score").innerHTML =  score + "%";
     console.log(score + "%");
+}
+function showPopup(){
+    scoreBoard.style.display="block";
 }
