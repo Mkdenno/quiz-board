@@ -71,5 +71,7 @@ function showPopup(){
 }
 function hidePopup(){
     scoreBoard.style.display="none";
-    
+    document.getElementById("question").reset();
+    window.location.reload();
+
 }
