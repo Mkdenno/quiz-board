@@ -43,3 +43,20 @@ body{
     align-items: center;
     padding: 10px;
 }
+.questions >p{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+.questions .btn{
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.questions .btn:hover{
+    background-color: rgb(4, 240, 4);
+    
+    }
+    .questions p span{
+        color: red;
+    }
