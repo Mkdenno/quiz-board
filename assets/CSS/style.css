@@ -56,7 +56,19 @@ body{
 .questions .btn:hover{
     background-color: rgb(4, 240, 4);
     
-    }
-    .questions p span{
+}
+.questions p span{
         color: red;
-    }
+}
+.score_board{
+    background-color: white;
+    padding: 20px;
+    width:50%;
+    height: 400px;
+    position: fixed;
+    top: 13%;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 236, 221);
+    text-align: center;
+    display:none;
+}

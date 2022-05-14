@@ -24,7 +24,7 @@
             <p><input type="radio" name="q_one" value="HTML" required>HTML</p>
             <p><input type="radio" name="q_one" value="HMLT" required>HMLT</p>
             <p><input type="radio" name="q_one" value="MHLT" required>MHLT</p>
-            <p><input type="radio" name="q_one" value="MHLT" required>LMTT</p>
+            <p><input type="radio" name="q_one" value="LMTT" required>LMTT</p>
         </div>
         <div>
             <p> 2).What is the other name of Javascript? <span>*</span></p>
@@ -57,11 +57,18 @@
         <button type="submit" class="btn">Submit </button>
 
     </form>
-
+    <div class="score_board">
+        <h2>Score</h2>
+        <i class="fa-solid fa-xmark" onclick="hidePopup()"></i>
+        <div class="score_value" >
+            <p id="message"></p>
+            <h1 id="score"></h1>
+        </div>
     
+    </div> 
 
 </div>  
 
-
+<script src="./assets/JS/script.js"></script>
 </body>
 </html>
