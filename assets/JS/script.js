@@ -66,12 +66,52 @@ function checkAnswers(){
     document.getElementById("score").innerHTML =  score + "%";
     console.log(score + "%");
 }
+
+
 function showPopup(){
     scoreBoard.style.display="block";
+    setMessage()
 }
+
+
 function hidePopup(){
     scoreBoard.style.display="none";
     document.getElementById("question").reset();
     window.location.reload();
 
+}
+function setMessage() {
+    const message = document.getElementById("message");
+
+    if(score == 0){
+        document.getElementById("sad").style.display ="block";
+        message.innerHTML = "sorry, you didnt get any question";
+        message.style.color = "red"
+    }
+
+    if(score == 20){
+        document.getElementById("sad").style.display ="block";
+        message.innerHTML = "try harder next time";
+        message.style.color = "red"
+    }
+
+    if(score >= 40 && score <= 60){
+        document.getElementById("avarage").style.display ="block";
+        message.innerHTML = "average score";
+    }
+
+    if(score > 60 && score <= 80){
+        document.getElementById("hey").style.display ="block";
+
+        message.innerHTML = "good";
+        message.style.color = "green"
+
+    }
+
+    if(score == 100) {
+        document.getElementById("happy").style.display="block";
+        message.innerHTML = "perfect score";
+        message.style.color = "green"
+
+    }
 }
