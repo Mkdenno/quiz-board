@@ -69,3 +69,7 @@ function checkAnswers(){
 function showPopup(){
     scoreBoard.style.display="block";
 }
+function hidePopup(){
+    scoreBoard.style.display="none";
+    
+}
