@@ -70,7 +70,8 @@ function checkAnswers(){
 
 function showPopup(){
     scoreBoard.style.display="block";
-    setMessage()
+    setMessage();
+    document.querySelector(".body").style.display = 'none'
 }
 
 
