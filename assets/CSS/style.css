@@ -55,7 +55,9 @@ body{
 }
 .questions >p  input{
     font-family: 'Lobster', cursive;
-padding: 10px;}
+    padding: 10px;
+    font-size: 10px;
+}
 .questions .btn{
     padding: 15px;
     border-radius: 10px;
@@ -102,4 +104,14 @@ padding: 10px;}
 #sad, #happy, #avarage ,#hey{
     display: none;
     margin: auto;
+}
+/* phone media queries */
+@media screen and (max-width:600px){
+
+
+    .container{
+        width: 60%;
+        margin:auto;   
+    }
+
 }
