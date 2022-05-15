@@ -44,6 +44,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
+
 }
 .questions >p{
     font-family: 'Lobster', cursive;
@@ -52,10 +53,13 @@ body{
 .questions .btn{
     padding: 15px;
     border-radius: 10px;
-    width: 100%;background-color: aqua;
+    width: 100%;
+    background-color:white;
     font-size: 30px;
+    margin-top: 10px;
 
 }
+
 .questions .btn:hover{
     background-color: rgb(4, 240, 4);
     
@@ -63,6 +67,7 @@ body{
 .questions p span{
         color: red;
 }
+
 .score_board{
     background-color: rgb(218, 164, 164);
     padding: 20px;
