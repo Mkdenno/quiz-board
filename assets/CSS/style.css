@@ -113,5 +113,16 @@ body{
         width: 60%;
         margin:auto;   
     }
+    .header{
+        flex-direction: column;
+        font-size: 30px;
+        position: fixed;
+        margin-top:0; 
+  
+    }
+    .header img{
+        width: 5px;
+  
+    }
 
 }
