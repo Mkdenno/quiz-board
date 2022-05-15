@@ -34,3 +34,13 @@ As a user of the application,you will be able to :
 - Click this link to view the live application https://mkdenno.github.io/movers-website/
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
+* CSS - which was used to style the User Interface.
+* JS - which was use to store user answers and correct answers in array 
+[Go Back to the top](#quiz-board)
+## Instructions
+* The website is not responsive can only be used on a desktop
+## Licence
+This project is licensed under the terms of the MIT license
+[Go Back to the top](#quiz-board)
+## Authors Info
+Dennis kiprop Masiror
