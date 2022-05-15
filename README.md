@@ -14,18 +14,18 @@ This is a Quiz Board for student to take
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- This project is a movers web application for that shows details about the services it offers, has information about the moving company, a portfolio section and a form that enables users to send their requests and concerns to Movers website.
+ This project is a Quiz Board web application That has question for Students, which when they check there answers the click submit they will get there score in parcentage form.
 ## Features
 As a user of the application,you will be able to :
-1. See a description of what the services offered by the moving company
-2. Can make inquiry through a form.
+1. Answer Questions which are given.
+2. Can get the results whe he/she submits.
 [Go Back to the top](#quiz-board)
  ###  Requirements
  * Access to  a computer or any other garget
  * Access to internet
  ### Installation Process
  ****
-* Clone to the repo : git clone https://github.com/Mkdenno/movers-website
+* Clone to the repo : git clone https://github.com/Mkdenno/quiz-board
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
